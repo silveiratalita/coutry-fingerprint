@@ -1,6 +1,6 @@
 export default {
 	async fetch(request, env, ctx) {
-		console.log('entrou aqui caralhooo');
+		console.log('entrou aqui');
 		const country = request.headers.get('cf-ipcountry') || 'Unknown';
 		const userAgent = request.headers.get('user-agent') || 'Unknown';
 
